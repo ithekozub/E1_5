@@ -1,0 +1,153 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 113px
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+
+.inner-header {
+    display: flex;
+    align-items: center;
+    background-color: #101010;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 58px;
+}
+
+
+.navigation{
+    float: right;
+    list-style-type: none;
+    margin-left: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation a{
+    height: 100%;
+    float: left;
+    background-color: #101010;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    float: right;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+
+.navigation a li:hover{
+	background: #fff;
+    color: #000;
+}
+
+.logo-container{
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+    width: 500px;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+	justify-content: space-between;
+    margin-top: 16px;
+}
+
+.description{
+   padding-left: 40px;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.33em;
+    margin-bottom: 1em;
+}
+
+.contacts {
+    margin-top: 16px;
+
+}
+
+.contacts span{
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+.contacts a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+}
+
+.contacts a:hover {
+    background: #000;
+    color: #fff;
+}
